@@ -1,0 +1,13 @@
+name: NationSystem
+main: me.example.nationsystem.NationSystem
+version: 1.0
+api-version: 1.20
+
+commands:
+  국가:
+    aliases: [n, nation]
+    description: 국가 시스템 명령어
+    usage: /<command>
+  admin:
+    description: 관리자 설정 명령어
+    usage: /<command>

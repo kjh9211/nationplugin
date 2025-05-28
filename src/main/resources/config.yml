@@ -1,0 +1,31 @@
+# 저장 방식: local, mysql 중 선택
+storage-type: local  # 기본값은 local
+
+# MySQL 설정
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "nation_system"
+  username: "root"
+  password: "password"
+  useSSL: false
+
+
+# 국가 생성에 필요한 최소 인원 수
+min-members: 3  # 국가 생성 기준 인원
+
+# 창고 단계별 슬롯 수
+warehouse-slots:
+  1: 9
+  2: 18
+  3: 27
+  4: 36
+
+# 최대 스폰 지점 수
+max-spawn-points: 4
+
+# 국가 채팅 메시지 포맷
+chat-format: "[국가] %player%: %message%"
+
+# 관리자 명령어 별칭
+admin-command-aliases: [admin, 관리자]
